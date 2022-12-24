@@ -13,7 +13,7 @@ def bubble_sort(list):
 list = [345, 4556, 67, 43, 567, 234, 67, 34, 567, 234, 567, 78678, 567567, 456456, 34, 45665756, 345, 1, 567567567, 7686, 56546]
 new_list = bubble_sort(list)
 count, summ = 0, 0
-maxx = -math.e
+maxx = -math.inf
 for i in range(len(new_list)):
     if new_list[i] < 10000:
         count += 1
