@@ -9,7 +9,7 @@ def bubble_sort(list):
     return list
 
 
-# list random numbers
+# list of random numbers
 list = [345, 4556, 67, 43, 567, 234, 67, 34, 567, 234, 567, 78678, 567567, 456456, 34, 45665756, 345, 1, 567567567, 7686, 56546]
 new_list = bubble_sort(list)
 count, summ = 0, 0
